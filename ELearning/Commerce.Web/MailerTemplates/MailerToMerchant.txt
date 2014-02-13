@@ -1,0 +1,9 @@
+
+Se ha recibido una orden de #NAME#.
+Más Información: #LINK#
+
+#ORDER#
+
+
+
+"#TAGLINE#"

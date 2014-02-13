@@ -1,0 +1,105 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="adminmaster" %>
+<%@ Register Src="Modules/CatalogList.ascx" TagName="CatalogList" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <link id="Link1" rel="stylesheet" type="text/css" href='~/js/modal/subModal.css' runat="server" />
+     <atlas:ScriptManager ID="ScriptManager1" EnablePartialRendering="true" runat="Server">
+    </atlas:ScriptManager>
+</head>
+	<script type="text/javascript" src="<%=Page.ResolveUrl("~/js/modal/common.js")%>"></script>
+	<script type="text/javascript" src="<%=Page.ResolveUrl("~/js/modal/submodalsource.js")%>"></script>
+<body >
+    <form id="form2" runat="server">
+	<div id="logo">
+		<img src='<%=Page.ResolveUrl("~/images/admin.gif")%>'/>
+	</div>	
+	<br />
+	<div style="height:60px" >&nbsp;</div>
+	<div id="bar" style="width: 737px">
+        <asp:HyperLink ID="HyperLink1" runat="server" Visible="false" NavigateUrl="admin/default.aspx" >Regresar al Menu Administrador</asp:HyperLink>&nbsp;</div> 
+    <table  style="width:770px" >
+    <tr>
+        <td style="width:180px">
+  
+        <table width="100%" bgcolor="gainsboro" cellpadding="3" cellspacing="1">
+            <tr>
+                <td bgcolor="whitesmoke" valign="top" style="padding-left:10px; width: 180px;">
+                    
+                    <h2><img src="../images/icons/icon_dollar.gif" align="middle" /> 
+                        <asp:Localize ID="OrdersContent" runat="server" meta:resourcekey="OrdersContentResource1" Text="Orders"></asp:Localize></h2>
+                    <div><a href="admin_orders.aspx">Ordenes</a></div>
+                    <hr />
+                    
+                    <h2><img src="../images/icons/icon_fav.gif" align="middle" /> 
+                        <asp:Localize ID="ProductsContent" runat="server" meta:resourcekey="ProductsContentResource1" Text="Products"></asp:Localize></h2>
+                    <div><a href="admin_products.aspx">Productos</a></div>
+                    <div><a href="admin_categories.aspx">Categor&iacute;as de Productos</a></div>
+                    <div><a href="admin_manufacturers.aspx">Fabricantes</a></div>
+                    <div><a href="admin_reviews.aspx">Comentarios de Productos</a></div>
+                     <hr />
+                    
+                    <h2><img src="../images/icons/edit.gif" align="middle" /> 
+                        <asp:Localize ID="ConfigurationContent" runat="server" meta:resourcekey="ConfigurationContentResource1" Text="Configuration"></asp:Localize></h2>
+                    <div><a href="shippingconfiguration.aspx">Configuraci&oacute;n de Env&iacute;o</a></div>
+                      <hr />
+                     <h2><img src="../images/icons/users.gif" align="middle" /> 
+                         <asp:Localize ID="SecurityContent" runat="server" meta:resourcekey="SecurityContentResource1" Text="Security"></asp:Localize></h2>
+                    <div><a href="admin_users.aspx">Usuarios</a></div>
+                    <div><a href="admin_roles.aspx">Roles</a></div>
+                    <div><a href="admin_mailers.aspx">Enviadores de Mail</a></div>
+                    <div><a href="admin_logs.aspx">Logs</a></div>
+               
+                    <br /><br />
+                    <div><img src="../images/icons/icon_exit.gif" align="middle" /> <a href="../default.aspx"><b>Regresar al Sitio</b></a></div>
+                </td>
+            </tr>
+        </table>    
+    
+   
+    </td>
+    <td style="width:590px">        
+    <asp:contentplaceholder id="AdminPlaceHolder" runat="server" OnLoad="cargarAdminPlaceHolder" >
+    </asp:contentplaceholder>
+    </td>
+    </tr>
+    </table>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+    
+
+    <!--#INCLUDE FILE=includes/modal_divs.aspx-->
+    </form>
+</body>
+</html>
+<script>
+function popItScroll(theLink){ 
+	window.open(theLink,null,'height=800,width=700,scrollbars=yes,resizable=yes'); 
+	
+}
+</script>

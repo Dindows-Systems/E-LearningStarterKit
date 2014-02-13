@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Commerce.Common.ActiveList&lt;ItemType&gt;" Collapsed="true">
+    <Position X="32.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Bases\ActiveList.cs</FileName>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.ActiveRecord&lt;T&gt;" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Bases\ActiveRecord.cs</FileName>
+      <HashCode>EEAAjYZAMwQAACLIAAAAYMAAAGELQAEBAkABAURAIR8=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Ad" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\Ad.cs</FileName>
+      <HashCode>AAYAAAADAAAgCAAAMAAAAAgAIAAEAAABAACAAQAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Address" Collapsed="true">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\Address.cs</FileName>
+      <HashCode>QCYAAEAAACAACQAMEAAECAAAIAIAAAEBAQAAIAQAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Aggregate" Collapsed="true">
+    <Position X="34" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Sql Tools\Query.cs</FileName>
+      <HashCode>AAAAAAAAAAAAACAAAAAABAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Attribute" Collapsed="true">
+    <Position X="35.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\Attribute.cs</FileName>
+      <HashCode>AAAAAAAAAAAgEAAIIAAAACQAAAAkEAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Attributes" Collapsed="true">
+    <Position X="37.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\Attribute.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.AttributeSelection" Collapsed="true">
+    <Position X="39.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\Attribute.cs</FileName>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAgAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.AttributeTemplate" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\AttributeTemplate.cs</FileName>
+      <HashCode>AAYAAAAAAAAkCIAIIAAAAAAAIEAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Category" Collapsed="true">
+    <Position X="25.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\Category.cs</FileName>
+      <HashCode>gAYAAAACAAgACAAAAAAAAAACICAAAAAAAACAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Configuration" Collapsed="true">
+    <Position X="32.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Configuration.cs</FileName>
+      <HashCode>oAQQxEIZCEEgACgDSQIQCwRAgAgAECACAOAAGQAIphA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.DBHelper" Collapsed="true">
+    <Position X="34" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Sql Tools\DBHelper.cs</FileName>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAEAAAAAAABABAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Helper" Collapsed="true">
+    <Position X="35.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper.cs</FileName>
+      <HashCode>AACAAAAgAAAAABMAAAAABAAAAAAEAAAAAAAAAACAIEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Image" Collapsed="true">
+    <Position X="23" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\Image.cs</FileName>
+      <HashCode>kAYAAAAAAAAACAAAAAAAAAAAIQAAAAAACACAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Join" Collapsed="true">
+    <Position X="37.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Sql Tools\Query.cs</FileName>
+      <HashCode>AAACAAAAAgAgAAAAKAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Lookups" Collapsed="true">
+    <Position X="39.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Lookups.cs</FileName>
+      <HashCode>AAAAAAAAAEAAAAQAAAAAAAAAAAAAAAIAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Order" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\Order.cs</FileName>
+      <HashCode>iICghfIAVCICCASEABEBAUgSYMAAKJEAyQnJAAIQBgg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.OrderBy" Collapsed="true">
+    <Position X="32.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Sql Tools\Query.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAAIAAAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.OrderItem" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\OrderItem.cs</FileName>
+      <HashCode>lCAAABgABCQACCRAQEAAAEJRICAEDARAEQBAgAAIBAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.OrderNote" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\OrderNote.cs</FileName>
+      <HashCode>AAYAABAAAAACCAAAAAAAAAAAICAAAAAAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Product" Collapsed="true">
+    <Position X="27.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\Product.cs</FileName>
+      <HashCode>8AcBMUgUBCgoCgFgAQIBQEBYMSMIGBGAMQCEwZAIAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.ProductDescriptor" Collapsed="true">
+    <Position X="29.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\ProductDescriptor.cs</FileName>
+      <HashCode>EAYAAIAAAEAACEAAAAAAAAAAIAAAAAAAAACAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.ProductRating" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\ProductRating.cs</FileName>
+      <HashCode>EAYAAAAAAAAACAAgAAAAAAAAIAAAAAEAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.ProductReview" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\ProductReview.cs</FileName>
+      <HashCode>EAYAAAAAAAAACFAACAABAAAAIBAAAAECAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.ProductReviewFeedback" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\ProductReviewFeedback.cs</FileName>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAEAAIBAAAAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Query" Collapsed="true">
+    <Position X="34" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Sql Tools\Query.cs</FileName>
+      <HashCode>CMAAAAgIBAAACABAAAIEAQwEIQAIAABEAAAAAACAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.TableSchema">
+    <Position X="35.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Sql Tools\TableSchema.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Commerce.Common.TableSchema.Table" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sql Tools\TableSchema.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Commerce.Common.TableSchema.TableColumn" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sql Tools\TableSchema.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Commerce.Common.TableSchema.TableColumnCollection" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sql Tools\TableSchema.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Commerce.Common.TableSchema.TableColumnSetting" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sql Tools\TableSchema.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Commerce.Common.TableSchema.TableColumnSettingCollection" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sql Tools\TableSchema.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="Commerce.Common.TestCondition" Collapsed="true">
+    <Position X="37.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TestCondition.cs</FileName>
+      <HashCode>AAAggoAAIAAAAAgAAADAAAAAAAAAQAAAAABAEUAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Transaction" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Objects\Transaction.cs</FileName>
+      <HashCode>ACAAABAAAAAAKAAAgAAAgACgIAAAAAEAAIAAEAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Utility" Collapsed="true">
+    <Position X="39.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Utility.cs</FileName>
+      <HashCode>RAASAgEAEAAABBQAAQAAAEAAAkRCEAgEIYMABABAAEI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Common.Where" Collapsed="true">
+    <Position X="32.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Sql Tools\Query.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAgAAAABgAAACAAAAAQAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Commerce.Common.AdBoxPlacement" Collapsed="true">
+    <Position X="32.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Commerce.Common.AggregateFunction" Collapsed="true">
+    <Position X="34" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Sql Tools\Query.cs</FileName>
+      <HashCode>AAAAAAAAABCAAAAAEAAAAAQAAAAABAAAAAAAIAEAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Commerce.Common.AttributeType" Collapsed="true">
+    <Position X="35.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAABAACAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Commerce.Common.Comparison" Collapsed="true">
+    <Position X="37.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Sql Tools\Query.cs</FileName>
+      <HashCode>ACAAAAAAAAAAAAAAgIAAAAAAAAAAAEAAAAAAAAQBACE=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Commerce.Common.CreditCardType" Collapsed="true">
+    <Position X="39.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAABg=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Commerce.Common.OrderStatus" Collapsed="true">
+    <Position X="32.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AgBAAAAAQAgABAAAAAAAAAEAAAIIAAAACAAgAAEBAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Commerce.Common.ProductStatus" Collapsed="true">
+    <Position X="34" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AEAACAAEAAAAAiAABAAAAAEAAAAAAAAggAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Commerce.Common.ProductType" Collapsed="true">
+    <Position X="35.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAIAAAAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Commerce.Common.ShippingEstimate" Collapsed="true">
+    <Position X="37.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAEA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Commerce.Common.ShippingType" Collapsed="true">
+    <Position X="39.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAQQAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Commerce.Common.TransactionType" Collapsed="true">
+    <Position X="32.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAgAAAAAAAAAAAABAAAAAGAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Commerce.Common.USState" Collapsed="true">
+    <Position X="34" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>KACABtmEAUUimYkAAhgIAAIAAIBMAwAAAAQDAAAgxBk=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

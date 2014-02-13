@@ -1,0 +1,27 @@
+/* Creado por Alex Armijos
+    Documento css
+*/
+
+.cabeceraTabla {
+	color: #000033;
+	font-weight: bold;
+	font-size: 12px;
+	border-color: #ADC9CF;
+	background-color:#ADC9CF;
+}
+.letraColorAzul{color: #003366}
+.inputSinBorde {
+	font-size: 10px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+}
+.negrita{color: #000000; font-weight: bold; }
+.azulMarcado{color: #003366;
+	font-weight: bold;}
+.azulClaro{color: #336699}

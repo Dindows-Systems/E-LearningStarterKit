@@ -1,0 +1,39 @@
+
+Gracias por su orden reciente #NAME#!
+Si desea saber más sobre su orden, puede visitarnos en linea en 
+#LINK# y haga click en "Mis Ordenes" en el área superior de la página.
+
+
+======================================
+Información del Cliente
+======================================
+#BILLING#
+
+#SHIPPING#
+
+======================================
+Información de la Factura
+======================================
+Número de Orden				: #ORDERNUMBER#
+Fecha de la Orden			: #ORDERDATE#
+Estado						: #STATUS#
+Fecha Estimada de Entrega   : #DELIVERY#
+
+Total de la Orden			: #ORDERTOTAL#
+
+======================================
+Sus Items
+======================================
+#ITEMLIST#
+
+======================================
+Comentarios Adicionales
+======================================
+
+Por favor no responda a este email. 
+Si tiene alguna pregunta, por favor envíenos un email
+a #STOREEMAIL#.
+
+Gracias por comprar con nosotros! 
+
+#TAGLINE#

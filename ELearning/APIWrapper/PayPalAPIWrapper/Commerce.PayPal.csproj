@@ -1,0 +1,203 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DEE6FCE4-D41F-40C0-86FD-02887164AAA5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Commerce.PayPal</RootNamespace>
+    <AssemblyName>Commerce.PayPal</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Deploy|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Deploy\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>c:\Program Files\Microsoft Visual Studio 8\Team Tools\Static Analysis Tools\FxCop\\rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="APIWrapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SOAPTrace.cs" />
+    <Compile Include="Web References\PayPalSvc\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost/soap/sandbox/paypalsvc.wsdl">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\PayPalSvc\</RelPath>
+      <UpdateFromURL>http://localhost/soap/sandbox/paypalsvc.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Commerce_PayPal_PayPalSvc_PayPalAPIInterfaceService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Live WSDL\CoreComponentTypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Live WSDL\CoreComponentTypes.xsx">
+      <DependentUpon>CoreComponentTypes.xsd</DependentUpon>
+    </None>
+    <None Include="Live WSDL\ebayTypes.wsdl" />
+    <None Include="Live WSDL\eBLBaseComponents.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Live WSDL\eBLBaseComponents.xsx">
+      <DependentUpon>eBLBaseComponents.xsd</DependentUpon>
+    </None>
+    <None Include="Live WSDL\PayPalSvc.wsdl" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Sandbox WSDL\CoreComponentTypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Sandbox WSDL\CoreComponentTypes.xsx">
+      <DependentUpon>CoreComponentTypes.xsd</DependentUpon>
+    </None>
+    <None Include="Sandbox WSDL\eBLBaseComponents.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Sandbox WSDL\eBLBaseComponents.xsx">
+      <DependentUpon>eBLBaseComponents.xsd</DependentUpon>
+    </None>
+    <None Include="Sandbox WSDL\PayPalSvc.wsdl" />
+    <None Include="Web References\PayPalSvc\AddressVerifyResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\BAUpdateResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\BillUserResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\CoreComponentTypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\PayPalSvc\CoreComponentTypes.xsx">
+      <DependentUpon>CoreComponentTypes.xsd</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoCaptureResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoDirectPaymentResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoExpressCheckoutPaymentResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoReauthorizationResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoVoidResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\eBLBaseComponents.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\PayPalSvc\eBLBaseComponents.xsx">
+      <DependentUpon>eBLBaseComponents.xsd</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\GetExpressCheckoutDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\GetTransactionDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\MassPayResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\paypalsvc.wsdl" />
+    <None Include="Web References\PayPalSvc\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PayPalSvc\RefundTransactionResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\SetExpressCheckoutResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\TransactionSearchResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Commerce.Common\Commerce.Common.csproj">
+      <Project>{A777DB68-62D1-4B6F-91ED-B37E72F653C4}</Project>
+      <Name>Commerce.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WekeRoad.Tools\WekeRoad.Tools.csproj">
+      <Project>{14F88371-DC44-440D-B958-869D223D9320}</Project>
+      <Name>WekeRoad.Tools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
